@@ -1,4 +1,22 @@
 
-p{
-  color: blue;
+
+.small-rect{
+  width: 20%;
+  height: 600px;
+  background-color: #4078c0;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 5px;
+  margin-top: 10px;
+
+}
+
+.big-rect{
+  width: 50%;
+  height: 600px;
+  background-color:#4078c0;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 10px;
+
 }
