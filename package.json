@@ -1,0 +1,21 @@
+{
+  "name": "tiygithub",
+  "version": "1.0.0",
+  "description": "repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start":"browser-sync start --server --directory",
+    "sass":"node-sass --output-style expanded --output src/css/ src/scss/main.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosalsm/TIY-GitHub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosalsm/TIY-GitHub/issues"
+  },
+  "homepage": "https://github.com/rosalsm/TIY-GitHub#readme"
+}
