@@ -9,18 +9,69 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <link rel="stylesheet" href="octicons/octicons.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      <section class="container">
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+      <section class="small-rect">
+        <section class="content">
+          <section id="pict">
+          <img class="picture" src="img/Octocat.jpg">
+         </section>
+         <section class="name">
+          <h3 class="theoctocat">{{name}}</h3>
+          <p class="octocat">{{login}}</p>
+        </section>
+          <ul class="details">
+          <li id="company"><span class="octicon octicon-organization"></span>{{company}}</li>
+            <li id="location"><span class="octicon octicon-location"></span>{{location}}</li>
+            <li id="email"><span class="octicon octicon-mail"></span>
+              <a class="em" href="mailto: octocat@github.com">{{email}}</a>
+            </li>
+            <li id="web"><span class="octicon octicon-link"></span>
+              <a class="site" href="http://www.github.com/blog">{{link}}</a>
+            </li>
+            <li id="date"><span class="octicon octicon-clock"></span>{{moment}}></li>
+          </ul>
+          <table class="data">
+            <tr class="numeric">
+            <td class="followers">1.1k</td>
+            <td class="starred">2</td>
+            <td class="following">6</td>
+            </tr>
+            <tr class="numeric2">
+            <td class="followers2">Followers</td>
+            <td class="starred2">Starred</td>
+            <td class="following2">Following</td>
+           </tr>
+          </table>
+
+        </section>
+
+      </section>
+
+      <section class="big-rect">
+        <nav class="tab-nav">
+          <ul class="tabs">
+          <li ><a class="contri" href="contrib">Contributions</a></li>
+          <li ><a class="repos" href="repos">Repositories</a></li>
+          <li ><a class="publact" href="pubacti">Public activity</a></li>
+
+        </ul>
+
+
+        </nav>
+
+
+      </section>
+
+      </section>
+
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
