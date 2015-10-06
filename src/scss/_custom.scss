@@ -1,6 +1,7 @@
 
 .container{
   margin-left:10%;
+  width: 100%;
 }
 .name{
   border-bottom-style: ridge;
@@ -59,11 +60,18 @@ tr.numeric2 >td{
 }
 
 .big-rect{
-  width: 50%;
+  width: 40%;
   height: 700px;
   background-color:#4078c0;
   display: inline-block;
   margin-left: 5px;
   margin-top: 10px;
+  margin-right: 120px;
+  float: right;
+}
+
+.tabs li{
+  display: inline-block;
+  line-height: 20px;
 
 }
