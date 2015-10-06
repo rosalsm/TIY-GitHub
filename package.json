@@ -1,12 +1,12 @@
 {
   "name": "tiygithub",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "repository",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "start":"browser-sync start --server --directory",
-    "sass":"node-sass --output-style expanded --output src/css/ src/scss/main.scss"
+    "start":"browser-sync start --server --directory --startPath='src/index.html'",
+    "sass":"node-sass src/scss/main.scss src/css/main.css"
   },
   "repository": {
     "type": "git",

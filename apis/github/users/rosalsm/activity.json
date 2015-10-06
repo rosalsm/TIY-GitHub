@@ -1,0 +1,1803 @@
+[
+  {
+    "id": "3209484128",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/384",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/384/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/384/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/384/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/384",
+        "id": 109854470,
+        "number": 384,
+        "title": "20--Rosa Lopez Sanchez",
+        "user": {
+          "login": "rosalsm",
+          "id": 14005282,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/rosalsm",
+          "html_url": "https://github.com/rosalsm",
+          "followers_url": "https://api.github.com/users/rosalsm/followers",
+          "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+          "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+          "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+          "repos_url": "https://api.github.com/users/rosalsm/repos",
+          "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-10-05T18:12:11Z",
+        "updated_at": "2015-10-05T20:29:05Z",
+        "closed_at": null,
+        "body": "* **Yak-Shaving**\r\n  * [ ] Create a _WIP Issue_ with links to:\r\n    * your PR in `USERNAME.github.io`\r\n      * [ ] from `journal-week-5` into `master`\r\n      * [ ] from `release--0.0.0` into `master`\r\n    * [ ] your PR in `TIY-GitHub` from `release--0.0.2` into `master`\r\n    * [ ] your PRs in `TIY-GitHub` from `feature--*` (multiple) into `release--0.0.2`\r\n  * [ ] **MERGE YOUR OPEN PRs!**\r\n    * [ ] in `USERNAME.github.io` from `journal-week-4` into `master`\r\n    * [x] in `TIY-Chessboard`\r\n    * [x] in `TIY-GitHub` (from last week)\r\n  * [ ] Create the following _WIP Branch_ in:\r\n    * `USERNAME.github.io`\r\n      * [x] named `journal-week-5` from `master`\r\n      * [x] named `release--0.0.0` from `master`\r\n    * `TIY-GitHub`\r\n      * [x] named `release--0.0.2` from `master`\r\n      * [x] named `feature--profile-placeholders` from `release--0.0.2`\r\n      * [x] named `feature--FILL_ME_IN` from `release--0.0.2`\r\n  * [ ] Create or update the following _WIP Files_ in:\r\n    * `USERNAME.github.io:journal-week-5`\r\n      * `journal-week-5.md` or something creative\r\n      * `tutorial-week-5.md` or something creative\r\n      * `resource-week-5.md` or something creative\r\n    * `USERNAME.github.io:release--0.0.0`\r\n      * `.gitignore` -- with the following patterns:\r\n        * `/dist`\r\n        * `/node_modules`\r\n        * `/bower_components`\r\n        * `css`\r\n      * `package.json` -- and `npm install --link --save-dev`\r\n        * `bower`\r\n        * `browser-sync`\r\n        * `gulp`\r\n        * `node-sass`\r\n      * `specs/` -- for **BEAST MODE**\r\n      * `src/` -- from `yo h5bp`\r\n        * `js/`\r\n          * `main.js`\r\n          * nothing else!\r\n        * `scss/`\r\n          * `_common.scss`\r\n          * `_desktop.scss`\r\n          * `_mobile.scss`\r\n          * `_tablet.scss`\r\n          * `main.scss` -- with `@import` links to above\r\n        * `css/` -- DELETED!\r\n        * `index.html`\r\n    * `TIY-GitHub:release--0.0.2`\r\n      * `apis/github/users/`\r\n        * `USERNAME.json` -- for _your_ profile data\r\n        * `USERNAME/`\r\n          * `repos.json` -- for _your_ repository data\r\n          * `activity.json` -- for _your_ public events\r\n      * `src/`\r\n        * `scss/_custom.scss` -- to clean up your (S)CSS\r\n        * `js/main.js` -- in case you need to catch up on `jQuery.ajax`\r\n        * `index.html`\r\n* **Journal, Week 5**\r\n  * [ ] Resource Journal _Draft_\r\n  * [ ] Reflective Journal _Outline_\r\n  * [ ] Tutorial _Outline_\r\n* **Reading APIs**\r\n  * [ ] All caught up!\r\n* **GitHub Revolution** -- Now with MORE CHECKBOXES!\r\n  * [ ] `feature--my-little-profile`\r\n    * [ ] `USERNAME.json`\r\n    * [ ] `USERNAME/repos.json`\r\n    * [ ] `USERNAME/activity.json`\r\n  * [ ] `feature--profile-placeholders`\r\n    * [ ] Please state your `name`...\r\n    * [ ] Would you like to `login`?\r\n    * [ ] Octocat is a `company` man, er... monster.\r\n    * [ ] Last known `location`?\r\n    * [ ] You've got `email`!\r\n    * [ ] Don't forget the missing `link`...!\r\n    * [ ] Wait, gimme a `moment` to figure this out...\r\n  * [ ] `feature--main-column-tabs`\r\n    * [ ] Seems like this is `<nav>`-igation...\r\n    * [ ] Don't just _use_ the Octicons, _become_ the Octicons...\r\n    * [ ] Is that _really_ a `<button>`?\r\n    * [ ] To start, just _make_ one `.active`...\r\n    * [ ] Don't settle for less than interactive!\r\n    * [ ] Every `.tabs` needs `.panels`...\r\n  * [ ] `feature--repo-list-layout`\r\n    * [ ] If I _wanted_ to `Search`...\r\n    * [ ] ...or filter!\r\n    * [ ] This cat sure likes nursery rhymes...\r\n    * [ ] ...about CSS, apparently.\r\n    * [ ] Stars and forks forever!\r\n    * [ ] How does he/she/it find time for these updates?\r\n    * [ ] Don't tell me you forgot all the links!\r\n    * [ ] And the World says \"Hello\" to you, too!\r\n    * [ ] 3 Examples is enough to derive a pattern from...\r\n  * **BEAST MODE** `feature--repo-list-placeholders`\r\n    * What do \"Spoon-Knife\" and \"Hello-World\" have in common?\r\n    * Don't tell me you forgot the links again!\r\n    * That `description` is not very descriptive...\r\n    * She said we don't speak the same `language`.\r\n    * What do you call a vampire who practice astrology? `stargazer_count`\r\n    * It's like ten thousand `forks` when all you need is a `\"Spoon-Knife\"`"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/comments/145658005",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/384#issuecomment-145658005",
+        "issue_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/384",
+        "id": 145658005,
+        "user": {
+          "login": "rosalsm",
+          "id": 14005282,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/rosalsm",
+          "html_url": "https://github.com/rosalsm",
+          "followers_url": "https://api.github.com/users/rosalsm/followers",
+          "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+          "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+          "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+          "repos_url": "https://api.github.com/users/rosalsm/repos",
+          "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-05T20:29:05Z",
+        "updated_at": "2015-10-05T20:29:05Z",
+        "body": "My little profile\r\n\r\nhttps://github.com/rosalsm/TIY-GitHub/pull/5"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:29:05Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3209478739",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 43316235,
+      "name": "rosalsm/TIY-GitHub",
+      "url": "https://api.github.com/repos/rosalsm/TIY-GitHub"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 5,
+      "pull_request": {
+        "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/pulls/5",
+        "id": 46829229,
+        "html_url": "https://github.com/rosalsm/TIY-GitHub/pull/5",
+        "diff_url": "https://github.com/rosalsm/TIY-GitHub/pull/5.diff",
+        "patch_url": "https://github.com/rosalsm/TIY-GitHub/pull/5.patch",
+        "issue_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/issues/5",
+        "number": 5,
+        "state": "open",
+        "locked": false,
+        "title": "my profile with json data",
+        "user": {
+          "login": "rosalsm",
+          "id": 14005282,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/rosalsm",
+          "html_url": "https://github.com/rosalsm",
+          "followers_url": "https://api.github.com/users/rosalsm/followers",
+          "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+          "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+          "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+          "repos_url": "https://api.github.com/users/rosalsm/repos",
+          "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-05T20:27:37Z",
+        "updated_at": "2015-10-05T20:27:37Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/pulls/5/commits",
+        "review_comments_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/pulls/5/comments",
+        "review_comment_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/issues/5/comments",
+        "statuses_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/statuses/9b372b29a288b44b5ce12e88bda19ba30af62b3f",
+        "head": {
+          "label": "rosalsm:feature--my-little-profile",
+          "ref": "feature--my-little-profile",
+          "sha": "9b372b29a288b44b5ce12e88bda19ba30af62b3f",
+          "user": {
+            "login": "rosalsm",
+            "id": 14005282,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rosalsm",
+            "html_url": "https://github.com/rosalsm",
+            "followers_url": "https://api.github.com/users/rosalsm/followers",
+            "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+            "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+            "repos_url": "https://api.github.com/users/rosalsm/repos",
+            "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 43316235,
+            "name": "TIY-GitHub",
+            "full_name": "rosalsm/TIY-GitHub",
+            "owner": {
+              "login": "rosalsm",
+              "id": 14005282,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/rosalsm",
+              "html_url": "https://github.com/rosalsm",
+              "followers_url": "https://api.github.com/users/rosalsm/followers",
+              "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+              "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+              "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+              "repos_url": "https://api.github.com/users/rosalsm/repos",
+              "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/rosalsm/TIY-GitHub",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/rosalsm/TIY-GitHub",
+            "forks_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/forks",
+            "keys_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/teams",
+            "hooks_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/hooks",
+            "issue_events_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/events",
+            "assignees_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/tags",
+            "blobs_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/languages",
+            "stargazers_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/stargazers",
+            "contributors_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/contributors",
+            "subscribers_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/subscribers",
+            "subscription_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/subscription",
+            "commits_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/merges",
+            "archive_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/downloads",
+            "issues_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/releases{/id}",
+            "created_at": "2015-09-28T17:38:12Z",
+            "updated_at": "2015-09-28T18:15:02Z",
+            "pushed_at": "2015-10-05T20:26:48Z",
+            "git_url": "git://github.com/rosalsm/TIY-GitHub.git",
+            "ssh_url": "git@github.com:rosalsm/TIY-GitHub.git",
+            "clone_url": "https://github.com/rosalsm/TIY-GitHub.git",
+            "svn_url": "https://github.com/rosalsm/TIY-GitHub",
+            "homepage": null,
+            "size": 3256,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "rosalsm:release--0.0.2",
+          "ref": "release--0.0.2",
+          "sha": "eee3db88ca361fedcb79ecb7b2a6e8f26828ab5a",
+          "user": {
+            "login": "rosalsm",
+            "id": 14005282,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rosalsm",
+            "html_url": "https://github.com/rosalsm",
+            "followers_url": "https://api.github.com/users/rosalsm/followers",
+            "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+            "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+            "repos_url": "https://api.github.com/users/rosalsm/repos",
+            "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 43316235,
+            "name": "TIY-GitHub",
+            "full_name": "rosalsm/TIY-GitHub",
+            "owner": {
+              "login": "rosalsm",
+              "id": 14005282,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/rosalsm",
+              "html_url": "https://github.com/rosalsm",
+              "followers_url": "https://api.github.com/users/rosalsm/followers",
+              "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+              "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+              "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+              "repos_url": "https://api.github.com/users/rosalsm/repos",
+              "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/rosalsm/TIY-GitHub",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/rosalsm/TIY-GitHub",
+            "forks_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/forks",
+            "keys_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/teams",
+            "hooks_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/hooks",
+            "issue_events_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/events",
+            "assignees_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/tags",
+            "blobs_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/languages",
+            "stargazers_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/stargazers",
+            "contributors_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/contributors",
+            "subscribers_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/subscribers",
+            "subscription_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/subscription",
+            "commits_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/merges",
+            "archive_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/downloads",
+            "issues_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/labels{/name}",
+            "releases_url": "https://api.github.com/repos/rosalsm/TIY-GitHub/releases{/id}",
+            "created_at": "2015-09-28T17:38:12Z",
+            "updated_at": "2015-09-28T18:15:02Z",
+            "pushed_at": "2015-10-05T20:26:48Z",
+            "git_url": "git://github.com/rosalsm/TIY-GitHub.git",
+            "ssh_url": "git@github.com:rosalsm/TIY-GitHub.git",
+            "clone_url": "https://github.com/rosalsm/TIY-GitHub.git",
+            "svn_url": "https://github.com/rosalsm/TIY-GitHub",
+            "homepage": null,
+            "size": 3256,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-GitHub/pulls/5"
+          },
+          "html": {
+            "href": "https://github.com/rosalsm/TIY-GitHub/pull/5"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-GitHub/issues/5"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-GitHub/issues/5/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-GitHub/pulls/5/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-GitHub/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-GitHub/pulls/5/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-GitHub/statuses/9b372b29a288b44b5ce12e88bda19ba30af62b3f"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 912,
+        "deletions": 0,
+        "changed_files": 4
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:27:37Z"
+  },
+  {
+    "id": "3209475960",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 43316235,
+      "name": "rosalsm/TIY-GitHub",
+      "url": "https://api.github.com/repos/rosalsm/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 816098700,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature--my-little-profile",
+      "head": "9b372b29a288b44b5ce12e88bda19ba30af62b3f",
+      "before": "80c3bd44eb322645c6fd0b73b1f80a618b1b44ff",
+      "commits": [
+        {
+          "sha": "9b372b29a288b44b5ce12e88bda19ba30af62b3f",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "my profile with json data",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/9b372b29a288b44b5ce12e88bda19ba30af62b3f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:26:48Z"
+  },
+  {
+    "id": "3209475952",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 43316235,
+      "name": "rosalsm/TIY-GitHub",
+      "url": "https://api.github.com/repos/rosalsm/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 816098696,
+      "size": 11,
+      "distinct_size": 6,
+      "ref": "refs/heads/release--0.0.2",
+      "head": "eee3db88ca361fedcb79ecb7b2a6e8f26828ab5a",
+      "before": "80c3bd44eb322645c6fd0b73b1f80a618b1b44ff",
+      "commits": [
+        {
+          "sha": "9d40b763cd58e0ac050fd23182f7fc77a13fd22b",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "first push on feature branch",
+          "distinct": false,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/9d40b763cd58e0ac050fd23182f7fc77a13fd22b"
+        },
+        {
+          "sha": "ebe066847864eea7ba814533e8296a7c9c90f4db",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "more touches",
+          "distinct": false,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/ebe066847864eea7ba814533e8296a7c9c90f4db"
+        },
+        {
+          "sha": "255e53b3427b01a5deead9fcb38fdc5feaa36611",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "Rosa Lopez Sanchez"
+          },
+          "message": "Merge pull request #2 from rosalsm/feature--basic-layout\n\nfirst PR on feature branch",
+          "distinct": false,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/255e53b3427b01a5deead9fcb38fdc5feaa36611"
+        },
+        {
+          "sha": "715dae1d24f8e13ce2d3c71ffc23b82dcebb1d72",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "work in feature branch",
+          "distinct": false,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/715dae1d24f8e13ce2d3c71ffc23b82dcebb1d72"
+        },
+        {
+          "sha": "9983a5fcc66710b3e60e108e205e931b5226c711",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "more for feature branch",
+          "distinct": false,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/9983a5fcc66710b3e60e108e205e931b5226c711"
+        },
+        {
+          "sha": "ffe6a68c41428c9ac4491f6d15a1765cc0d2f1e8",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "Rosa Lopez Sanchez"
+          },
+          "message": "Merge pull request #3 from rosalsm/feature--profile-details\n\nFeature  profile details",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/ffe6a68c41428c9ac4491f6d15a1765cc0d2f1e8"
+        },
+        {
+          "sha": "fea52dcea8b40a46a61ecead641dd395800511a8",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "finishing",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/fea52dcea8b40a46a61ecead641dd395800511a8"
+        },
+        {
+          "sha": "d21bf6afcdcde8b9be926113cd5b79c0a3a92c38",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "last commit",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/d21bf6afcdcde8b9be926113cd5b79c0a3a92c38"
+        },
+        {
+          "sha": "851c13be2a83d5469c35f14191baec739f25868a",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "Rosa Lopez Sanchez"
+          },
+          "message": "Merge pull request #4 from rosalsm/feature--fetch-data\n\nfinishing",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/851c13be2a83d5469c35f14191baec739f25868a"
+        },
+        {
+          "sha": "83f7a5faf3c64d1015c1b41da203adfa31c175aa",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "cleaning and adding gitignore",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/83f7a5faf3c64d1015c1b41da203adfa31c175aa"
+        },
+        {
+          "sha": "eee3db88ca361fedcb79ecb7b2a6e8f26828ab5a",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "commit to solved merde conflict\n\nMerge branch 'release--0.0.1' of https://github.com/rosalsm/TIY-GitHub into release--0.0.1",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/eee3db88ca361fedcb79ecb7b2a6e8f26828ab5a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:26:48Z"
+  },
+  {
+    "id": "3209317129",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 43316235,
+      "name": "rosalsm/TIY-GitHub",
+      "url": "https://api.github.com/repos/rosalsm/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--fetch-data",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:42:56Z"
+  },
+  {
+    "id": "3209316655",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 43316235,
+      "name": "rosalsm/TIY-GitHub",
+      "url": "https://api.github.com/repos/rosalsm/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "release--0.0.1",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:42:48Z"
+  },
+  {
+    "id": "3209244199",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41694165,
+      "name": "rosalsm/rosalsm.github.io",
+      "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io"
+    },
+    "payload": {
+      "ref": "release--0.0.0",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:22:25Z"
+  },
+  {
+    "id": "3209244051",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41694165,
+      "name": "rosalsm/rosalsm.github.io",
+      "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io"
+    },
+    "payload": {
+      "ref": "journal-week-5",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:22:21Z"
+  },
+  {
+    "id": "3209186550",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 43316235,
+      "name": "rosalsm/TIY-GitHub",
+      "url": "https://api.github.com/repos/rosalsm/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--my-little-profile",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:06:08Z"
+  },
+  {
+    "id": "3209183282",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 43316235,
+      "name": "rosalsm/TIY-GitHub",
+      "url": "https://api.github.com/repos/rosalsm/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--FILL_ME_IN",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:05:13Z"
+  },
+  {
+    "id": "3209069660",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 43316235,
+      "name": "rosalsm/TIY-GitHub",
+      "url": "https://api.github.com/repos/rosalsm/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 815953298,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature--fetch-data",
+      "head": "0d5a9a505a5b659c13cbea1a6068a4218854334f",
+      "before": "d21bf6afcdcde8b9be926113cd5b79c0a3a92c38",
+      "commits": [
+        {
+          "sha": "0d5a9a505a5b659c13cbea1a6068a4218854334f",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "cleaning files and add gitignore",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-GitHub/commits/0d5a9a505a5b659c13cbea1a6068a4218854334f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:34:04Z"
+  },
+  {
+    "id": "3209021636",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41694165,
+      "name": "rosalsm/rosalsm.github.io",
+      "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io"
+    },
+    "payload": {
+      "push_id": 815936332,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "03b17ef5a2ec69a16e7e3837bff9615d3a40687a",
+      "before": "5f0a068feb76a61f57d5673664b2e262df8a88c2",
+      "commits": [
+        {
+          "sha": "03b17ef5a2ec69a16e7e3837bff9615d3a40687a",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "Rosa Lopez Sanchez"
+          },
+          "message": "Create resource-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/commits/03b17ef5a2ec69a16e7e3837bff9615d3a40687a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:20:57Z"
+  },
+  {
+    "id": "3209017056",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41694165,
+      "name": "rosalsm/rosalsm.github.io",
+      "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io"
+    },
+    "payload": {
+      "push_id": 815934644,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "5f0a068feb76a61f57d5673664b2e262df8a88c2",
+      "before": "020d3914d88ce26158ae72830ee4fd8e937950e2",
+      "commits": [
+        {
+          "sha": "5f0a068feb76a61f57d5673664b2e262df8a88c2",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "Rosa Lopez Sanchez"
+          },
+          "message": "Create tutorial-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/commits/5f0a068feb76a61f57d5673664b2e262df8a88c2"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:19:45Z"
+  },
+  {
+    "id": "3209011948",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41694165,
+      "name": "rosalsm/rosalsm.github.io",
+      "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io"
+    },
+    "payload": {
+      "push_id": 815932764,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "020d3914d88ce26158ae72830ee4fd8e937950e2",
+      "before": "e266c5426ae848adce06c478d2ee95348317caf0",
+      "commits": [
+        {
+          "sha": "020d3914d88ce26158ae72830ee4fd8e937950e2",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "Rosa Lopez Sanchez"
+          },
+          "message": "Create journal-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/commits/020d3914d88ce26158ae72830ee4fd8e937950e2"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:18:21Z"
+  },
+  {
+    "id": "3209003682",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 43316235,
+      "name": "rosalsm/TIY-GitHub",
+      "url": "https://api.github.com/repos/rosalsm/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--FILL_ME_IN",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:16:07Z"
+  },
+  {
+    "id": "3209002257",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 43316235,
+      "name": "rosalsm/TIY-GitHub",
+      "url": "https://api.github.com/repos/rosalsm/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--profile-placeholders",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:15:44Z"
+  },
+  {
+    "id": "3209000984",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 43316235,
+      "name": "rosalsm/TIY-GitHub",
+      "url": "https://api.github.com/repos/rosalsm/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "release--0.0.2",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:15:25Z"
+  },
+  {
+    "id": "3208998274",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41694165,
+      "name": "rosalsm/rosalsm.github.io",
+      "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io"
+    },
+    "payload": {
+      "ref": "release--0.0.0",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:14:39Z"
+  },
+  {
+    "id": "3208996900",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41694165,
+      "name": "rosalsm/rosalsm.github.io",
+      "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io"
+    },
+    "payload": {
+      "ref": "journal-week-5",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:14:14Z"
+  },
+  {
+    "id": "3208989710",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/384",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/384/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/384/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/384/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/384",
+        "id": 109854470,
+        "number": 384,
+        "title": "20--Rosa Lopez Sanchez",
+        "user": {
+          "login": "rosalsm",
+          "id": 14005282,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/rosalsm",
+          "html_url": "https://github.com/rosalsm",
+          "followers_url": "https://api.github.com/users/rosalsm/followers",
+          "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+          "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+          "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+          "repos_url": "https://api.github.com/users/rosalsm/repos",
+          "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-10-05T18:12:11Z",
+        "updated_at": "2015-10-05T18:12:11Z",
+        "closed_at": null,
+        "body": "* **Yak-Shaving**\r\n  * [ ] Create a _WIP Issue_ with links to:\r\n    * your PR in `USERNAME.github.io`\r\n      * [ ] from `journal-week-5` into `master`\r\n      * [ ] from `release--0.0.0` into `master`\r\n    * [ ] your PR in `TIY-GitHub` from `release--0.0.2` into `master`\r\n    * [ ] your PRs in `TIY-GitHub` from `feature--*` (multiple) into `release--0.0.2`\r\n  * [ ] **MERGE YOUR OPEN PRs!**\r\n    * [ ] in `USERNAME.github.io` from `journal-week-4` into `master`\r\n    * [ ] in `TIY-Chessboard`\r\n    * [ ] in `TIY-GitHub` (from last week)\r\n  * [ ] Create the following _WIP Branch_ in:\r\n    * `USERNAME.github.io`\r\n      * [ ] named `journal-week-5` from `master`\r\n      * [ ] named `release--0.0.0` from `master`\r\n    * `TIY-GitHub`\r\n      * [ ] named `release--0.0.2` from `master`\r\n      * [ ] named `feature--profile-placeholders` from `release--0.0.2`\r\n      * [ ] named `feature--FILL_ME_IN` from `release--0.0.2`\r\n  * [ ] Create or update the following _WIP Files_ in:\r\n    * `USERNAME.github.io:journal-week-5`\r\n      * `journal-week-5.md` or something creative\r\n      * `tutorial-week-5.md` or something creative\r\n      * `resource-week-5.md` or something creative\r\n    * `USERNAME.github.io:release--0.0.0`\r\n      * `.gitignore` -- with the following patterns:\r\n        * `/dist`\r\n        * `/node_modules`\r\n        * `/bower_components`\r\n        * `css`\r\n      * `package.json` -- and `npm install --link --save-dev`\r\n        * `bower`\r\n        * `browser-sync`\r\n        * `gulp`\r\n        * `node-sass`\r\n      * `specs/` -- for **BEAST MODE**\r\n      * `src/` -- from `yo h5bp`\r\n        * `js/`\r\n          * `main.js`\r\n          * nothing else!\r\n        * `scss/`\r\n          * `_common.scss`\r\n          * `_desktop.scss`\r\n          * `_mobile.scss`\r\n          * `_tablet.scss`\r\n          * `main.scss` -- with `@import` links to above\r\n        * `css/` -- DELETED!\r\n        * `index.html`\r\n    * `TIY-GitHub:release--0.0.2`\r\n      * `apis/github/users/`\r\n        * `USERNAME.json` -- for _your_ profile data\r\n        * `USERNAME/`\r\n          * `repos.json` -- for _your_ repository data\r\n          * `activity.json` -- for _your_ public events\r\n      * `src/`\r\n        * `scss/_custom.scss` -- to clean up your (S)CSS\r\n        * `js/main.js` -- in case you need to catch up on `jQuery.ajax`\r\n        * `index.html`\r\n* **Journal, Week 5**\r\n  * [ ] Resource Journal _Draft_\r\n  * [ ] Reflective Journal _Outline_\r\n  * [ ] Tutorial _Outline_\r\n* **Reading APIs**\r\n  * [ ] All caught up!\r\n* **GitHub Revolution** -- Now with MORE CHECKBOXES!\r\n  * [ ] `feature--my-little-profile`\r\n    * [ ] `USERNAME.json`\r\n    * [ ] `USERNAME/repos.json`\r\n    * [ ] `USERNAME/activity.json`\r\n  * [ ] `feature--profile-placeholders`\r\n    * [ ] Please state your `name`...\r\n    * [ ] Would you like to `login`?\r\n    * [ ] Octocat is a `company` man, er... monster.\r\n    * [ ] Last known `location`?\r\n    * [ ] You've got `email`!\r\n    * [ ] Don't forget the missing `link`...!\r\n    * [ ] Wait, gimme a `moment` to figure this out...\r\n  * [ ] `feature--main-column-tabs`\r\n    * [ ] Seems like this is `<nav>`-igation...\r\n    * [ ] Don't just _use_ the Octicons, _become_ the Octicons...\r\n    * [ ] Is that _really_ a `<button>`?\r\n    * [ ] To start, just _make_ one `.active`...\r\n    * [ ] Don't settle for less than interactive!\r\n    * [ ] Every `.tabs` needs `.panels`...\r\n  * [ ] `feature--repo-list-layout`\r\n    * [ ] If I _wanted_ to `Search`...\r\n    * [ ] ...or filter!\r\n    * [ ] This cat sure likes nursery rhymes...\r\n    * [ ] ...about CSS, apparently.\r\n    * [ ] Stars and forks forever!\r\n    * [ ] How does he/she/it find time for these updates?\r\n    * [ ] Don't tell me you forgot all the links!\r\n    * [ ] And the World says \"Hello\" to you, too!\r\n    * [ ] 3 Examples is enough to derive a pattern from...\r\n  * **BEAST MODE** `feature--repo-list-placeholders`\r\n    * What do \"Spoon-Knife\" and \"Hello-World\" have in common?\r\n    * Don't tell me you forgot the links again!\r\n    * That `description` is not very descriptive...\r\n    * She said we don't speak the same `language`.\r\n    * What do you call a vampire who practice astrology? `stargazer_count`\r\n    * It's like ten thousand `forks` when all you need is a `\"Spoon-Knife\"`"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:12:11Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3208938896",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 42896897,
+      "name": "rosalsm/TIY-Chessboard",
+      "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 815906823,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/19--world-war-chess2",
+      "head": "2c0f662ce5eafe2891ecda0afc45691c488024f0",
+      "before": "32ae8ba894a86ea29a12a62584d7110d05b5b66c",
+      "commits": [
+        {
+          "sha": "2c0f662ce5eafe2891ecda0afc45691c488024f0",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "adding gitignore",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/commits/2c0f662ce5eafe2891ecda0afc45691c488024f0"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:58:00Z"
+  },
+  {
+    "id": "3208908753",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 42896897,
+      "name": "rosalsm/TIY-Chessboard",
+      "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 815896405,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/19--world-war-chess2",
+      "head": "32ae8ba894a86ea29a12a62584d7110d05b5b66c",
+      "before": "97196600e314a8672cb94c025eafa46ef2095873",
+      "commits": [
+        {
+          "sha": "32ae8ba894a86ea29a12a62584d7110d05b5b66c",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "cleaning",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/commits/32ae8ba894a86ea29a12a62584d7110d05b5b66c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T17:49:58Z"
+  },
+  {
+    "id": "3207697901",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 42896897,
+      "name": "rosalsm/TIY-Chessboard",
+      "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 815449753,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/19--world-war-chess2",
+      "head": "97196600e314a8672cb94c025eafa46ef2095873",
+      "before": "8b3b762db308405c2d3b0522687b762a6914dc5e",
+      "commits": [
+        {
+          "sha": "97196600e314a8672cb94c025eafa46ef2095873",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "explainning view-helpers",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/commits/97196600e314a8672cb94c025eafa46ef2095873"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T12:24:02Z"
+  },
+  {
+    "id": "3206347418",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 42896897,
+      "name": "rosalsm/TIY-Chessboard",
+      "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 4,
+      "pull_request": {
+        "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/pulls/4",
+        "id": 46735199,
+        "html_url": "https://github.com/rosalsm/TIY-Chessboard/pull/4",
+        "diff_url": "https://github.com/rosalsm/TIY-Chessboard/pull/4.diff",
+        "patch_url": "https://github.com/rosalsm/TIY-Chessboard/pull/4.patch",
+        "issue_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/issues/4",
+        "number": 4,
+        "state": "open",
+        "locked": false,
+        "title": "19  world war chess2",
+        "user": {
+          "login": "rosalsm",
+          "id": 14005282,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/rosalsm",
+          "html_url": "https://github.com/rosalsm",
+          "followers_url": "https://api.github.com/users/rosalsm/followers",
+          "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+          "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+          "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+          "repos_url": "https://api.github.com/users/rosalsm/repos",
+          "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "I am sorry for the name but I was working on chess2.0 when I realized I changed to 19-- and I merged both to master by mistake so I have a new 19--...2",
+        "created_at": "2015-10-04T22:41:19Z",
+        "updated_at": "2015-10-04T22:41:19Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": "061a22af3e3e2dbe79cc6fabf8bf05e29ba5a278",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/pulls/4/commits",
+        "review_comments_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/pulls/4/comments",
+        "review_comment_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/issues/4/comments",
+        "statuses_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/statuses/8b3b762db308405c2d3b0522687b762a6914dc5e",
+        "head": {
+          "label": "rosalsm:19--world-war-chess2",
+          "ref": "19--world-war-chess2",
+          "sha": "8b3b762db308405c2d3b0522687b762a6914dc5e",
+          "user": {
+            "login": "rosalsm",
+            "id": 14005282,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rosalsm",
+            "html_url": "https://github.com/rosalsm",
+            "followers_url": "https://api.github.com/users/rosalsm/followers",
+            "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+            "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+            "repos_url": "https://api.github.com/users/rosalsm/repos",
+            "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 42896897,
+            "name": "TIY-Chessboard",
+            "full_name": "rosalsm/TIY-Chessboard",
+            "owner": {
+              "login": "rosalsm",
+              "id": 14005282,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/rosalsm",
+              "html_url": "https://github.com/rosalsm",
+              "followers_url": "https://api.github.com/users/rosalsm/followers",
+              "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+              "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+              "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+              "repos_url": "https://api.github.com/users/rosalsm/repos",
+              "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/rosalsm/TIY-Chessboard",
+            "description": "building a chess-playing application",
+            "fork": false,
+            "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard",
+            "forks_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/forks",
+            "keys_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/teams",
+            "hooks_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/hooks",
+            "issue_events_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/events",
+            "assignees_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/tags",
+            "blobs_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/languages",
+            "stargazers_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/stargazers",
+            "contributors_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/contributors",
+            "subscribers_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/subscribers",
+            "subscription_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/subscription",
+            "commits_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/merges",
+            "archive_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/downloads",
+            "issues_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/labels{/name}",
+            "releases_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/releases{/id}",
+            "created_at": "2015-09-21T22:20:22Z",
+            "updated_at": "2015-10-03T23:21:13Z",
+            "pushed_at": "2015-10-04T22:41:20Z",
+            "git_url": "git://github.com/rosalsm/TIY-Chessboard.git",
+            "ssh_url": "git@github.com:rosalsm/TIY-Chessboard.git",
+            "clone_url": "https://github.com/rosalsm/TIY-Chessboard.git",
+            "svn_url": "https://github.com/rosalsm/TIY-Chessboard",
+            "homepage": null,
+            "size": 5128,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "rosalsm:master",
+          "ref": "master",
+          "sha": "c7afc9cd4e6f2467681ba4edccfefef03a965ae3",
+          "user": {
+            "login": "rosalsm",
+            "id": 14005282,
+            "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rosalsm",
+            "html_url": "https://github.com/rosalsm",
+            "followers_url": "https://api.github.com/users/rosalsm/followers",
+            "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+            "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+            "repos_url": "https://api.github.com/users/rosalsm/repos",
+            "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 42896897,
+            "name": "TIY-Chessboard",
+            "full_name": "rosalsm/TIY-Chessboard",
+            "owner": {
+              "login": "rosalsm",
+              "id": 14005282,
+              "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/rosalsm",
+              "html_url": "https://github.com/rosalsm",
+              "followers_url": "https://api.github.com/users/rosalsm/followers",
+              "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+              "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+              "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+              "repos_url": "https://api.github.com/users/rosalsm/repos",
+              "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/rosalsm/TIY-Chessboard",
+            "description": "building a chess-playing application",
+            "fork": false,
+            "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard",
+            "forks_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/forks",
+            "keys_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/teams",
+            "hooks_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/hooks",
+            "issue_events_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/events",
+            "assignees_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/tags",
+            "blobs_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/languages",
+            "stargazers_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/stargazers",
+            "contributors_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/contributors",
+            "subscribers_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/subscribers",
+            "subscription_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/subscription",
+            "commits_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/merges",
+            "archive_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/downloads",
+            "issues_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/labels{/name}",
+            "releases_url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/releases{/id}",
+            "created_at": "2015-09-21T22:20:22Z",
+            "updated_at": "2015-10-03T23:21:13Z",
+            "pushed_at": "2015-10-04T22:41:20Z",
+            "git_url": "git://github.com/rosalsm/TIY-Chessboard.git",
+            "ssh_url": "git@github.com:rosalsm/TIY-Chessboard.git",
+            "clone_url": "https://github.com/rosalsm/TIY-Chessboard.git",
+            "svn_url": "https://github.com/rosalsm/TIY-Chessboard",
+            "homepage": null,
+            "size": 5128,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-Chessboard/pulls/4"
+          },
+          "html": {
+            "href": "https://github.com/rosalsm/TIY-Chessboard/pull/4"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-Chessboard/issues/4"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-Chessboard/issues/4/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-Chessboard/pulls/4/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-Chessboard/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-Chessboard/pulls/4/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/rosalsm/TIY-Chessboard/statuses/8b3b762db308405c2d3b0522687b762a6914dc5e"
+          }
+        },
+        "merged": false,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 5,
+        "additions": 98,
+        "deletions": 47,
+        "changed_files": 4
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-04T22:41:21Z"
+  },
+  {
+    "id": "3206345673",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 42896897,
+      "name": "rosalsm/TIY-Chessboard",
+      "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 814914031,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/19--world-war-chess2",
+      "head": "8b3b762db308405c2d3b0522687b762a6914dc5e",
+      "before": "7ac94ac9c718f8ac29587345bafc7dee60f4c103",
+      "commits": [
+        {
+          "sha": "8b3b762db308405c2d3b0522687b762a6914dc5e",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "letters moving not pieces",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/commits/8b3b762db308405c2d3b0522687b762a6914dc5e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-04T22:39:19Z"
+  },
+  {
+    "id": "3206285107",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 42896897,
+      "name": "rosalsm/TIY-Chessboard",
+      "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 814885531,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/19--world-war-chess2",
+      "head": "7ac94ac9c718f8ac29587345bafc7dee60f4c103",
+      "before": "0b8e0530e557245699605fe164657e6ec0ad3d34",
+      "commits": [
+        {
+          "sha": "7ac94ac9c718f8ac29587345bafc7dee60f4c103",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "rosa"
+          },
+          "message": "more chess",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/TIY-Chessboard/commits/7ac94ac9c718f8ac29587345bafc7dee60f4c103"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-04T21:35:17Z"
+  },
+  {
+    "id": "3206244556",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41694288,
+      "name": "boshnivolo/boshnivolo.github.io",
+      "url": "https://api.github.com/repos/boshnivolo/boshnivolo.github.io"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/boshnivolo/boshnivolo.github.io/issues/12",
+        "labels_url": "https://api.github.com/repos/boshnivolo/boshnivolo.github.io/issues/12/labels{/name}",
+        "comments_url": "https://api.github.com/repos/boshnivolo/boshnivolo.github.io/issues/12/comments",
+        "events_url": "https://api.github.com/repos/boshnivolo/boshnivolo.github.io/issues/12/events",
+        "html_url": "https://github.com/boshnivolo/boshnivolo.github.io/pull/12",
+        "id": 108937115,
+        "number": 12,
+        "title": "Update 1-month-down.md",
+        "user": {
+          "login": "boshnivolo",
+          "id": 13842015,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13842015?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/boshnivolo",
+          "html_url": "https://github.com/boshnivolo",
+          "followers_url": "https://api.github.com/users/boshnivolo/followers",
+          "following_url": "https://api.github.com/users/boshnivolo/following{/other_user}",
+          "gists_url": "https://api.github.com/users/boshnivolo/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/boshnivolo/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/boshnivolo/subscriptions",
+          "organizations_url": "https://api.github.com/users/boshnivolo/orgs",
+          "repos_url": "https://api.github.com/users/boshnivolo/repos",
+          "events_url": "https://api.github.com/users/boshnivolo/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/boshnivolo/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 6,
+        "created_at": "2015-09-29T19:00:03Z",
+        "updated_at": "2015-10-04T20:55:40Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/boshnivolo/boshnivolo.github.io/pulls/12",
+          "html_url": "https://github.com/boshnivolo/boshnivolo.github.io/pull/12",
+          "diff_url": "https://github.com/boshnivolo/boshnivolo.github.io/pull/12.diff",
+          "patch_url": "https://github.com/boshnivolo/boshnivolo.github.io/pull/12.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/boshnivolo/boshnivolo.github.io/issues/comments/145386905",
+        "html_url": "https://github.com/boshnivolo/boshnivolo.github.io/pull/12#issuecomment-145386905",
+        "issue_url": "https://api.github.com/repos/boshnivolo/boshnivolo.github.io/issues/12",
+        "id": 145386905,
+        "user": {
+          "login": "rosalsm",
+          "id": 14005282,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14005282?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/rosalsm",
+          "html_url": "https://github.com/rosalsm",
+          "followers_url": "https://api.github.com/users/rosalsm/followers",
+          "following_url": "https://api.github.com/users/rosalsm/following{/other_user}",
+          "gists_url": "https://api.github.com/users/rosalsm/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/rosalsm/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/rosalsm/subscriptions",
+          "organizations_url": "https://api.github.com/users/rosalsm/orgs",
+          "repos_url": "https://api.github.com/users/rosalsm/repos",
+          "events_url": "https://api.github.com/users/rosalsm/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/rosalsm/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-04T20:55:40Z",
+        "updated_at": "2015-10-04T20:55:40Z",
+        "body": "I love reading your journal entries and tutorials. This time you give us a good base to start a good tutorial :+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-04T20:55:41Z"
+  },
+  {
+    "id": "3206235343",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41694165,
+      "name": "rosalsm/rosalsm.github.io",
+      "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io"
+    },
+    "payload": {
+      "push_id": 814862973,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-4",
+      "head": "b5a717cb7eba0a000ecc8f289e86b9030cc65799",
+      "before": "86c7ede1e8d0bf84766a710b9a7c05e54b949912",
+      "commits": [
+        {
+          "sha": "b5a717cb7eba0a000ecc8f289e86b9030cc65799",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "Rosa Lopez Sanchez"
+          },
+          "message": "Update tutorial-week-4.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/commits/b5a717cb7eba0a000ecc8f289e86b9030cc65799"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-04T20:46:24Z"
+  },
+  {
+    "id": "3206232798",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41694165,
+      "name": "rosalsm/rosalsm.github.io",
+      "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io"
+    },
+    "payload": {
+      "push_id": 814861849,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-4",
+      "head": "86c7ede1e8d0bf84766a710b9a7c05e54b949912",
+      "before": "55e89caf399563da3c636dc0fbc3911b9ff31a81",
+      "commits": [
+        {
+          "sha": "86c7ede1e8d0bf84766a710b9a7c05e54b949912",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "Rosa Lopez Sanchez"
+          },
+          "message": "Update tutorial-week-4.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/commits/86c7ede1e8d0bf84766a710b9a7c05e54b949912"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-04T20:43:53Z"
+  },
+  {
+    "id": "3206231895",
+    "type": "PushEvent",
+    "actor": {
+      "id": 14005282,
+      "login": "rosalsm",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rosalsm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14005282?"
+    },
+    "repo": {
+      "id": 41694165,
+      "name": "rosalsm/rosalsm.github.io",
+      "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io"
+    },
+    "payload": {
+      "push_id": 814861453,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-4",
+      "head": "55e89caf399563da3c636dc0fbc3911b9ff31a81",
+      "before": "9d8c20167e12a548e432ba1aed531bdf9b75df34",
+      "commits": [
+        {
+          "sha": "55e89caf399563da3c636dc0fbc3911b9ff31a81",
+          "author": {
+            "email": "r215130@gmail.com",
+            "name": "Rosa Lopez Sanchez"
+          },
+          "message": "Update tutorial-week-4.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/rosalsm/rosalsm.github.io/commits/55e89caf399563da3c636dc0fbc3911b9ff31a81"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-04T20:42:55Z"
+  }
+]
