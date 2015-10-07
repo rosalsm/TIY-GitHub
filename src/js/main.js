@@ -41,3 +41,11 @@ $.getJSON('../../apis/github/users/rosalsm.json',function(info){
  $('.site').html('<a>'+info.blog+'</a>');
  $('#date').html('<li>'+info.created_at+'</li>');
 });
+
+
+//with lodash
+//we defined the var compiled storing dictionary with key name and value string name.
+//$.getJSON('../../apis/github/users/rosalsm.json',function(info){
+  //console.log('i am in json');
+  //var compiled = _.template(< % = name % >);
+ //$('.theoctocat').html('<h3>'+ info.compiled +'</h3>');
