@@ -1,7 +1,10 @@
 
+body{
+  background-color: #EEE;
+}
 .container{
   margin-left:10%;
-  display: inline-block;
+  width: 100%;
 }
 .name{
   border-bottom-style: ridge;
@@ -60,11 +63,30 @@ tr.numeric2 >td{
 }
 
 .big-rect{
-  width: 50%;
+  width: 40%;
   height: 700px;
-  background-color:#4078c0;
-  display: inline-block;
   margin-left: 5px;
   margin-top: 10px;
+  margin-right: 200px;
+  float: right;
+}
 
+.tabs{
+  margin: 1ex 0;
+  padding: 0 2ex;
+  border-bottom: 1px solid gray;
+  line-height: 20px;
+}
+
+
+
+a[href]{
+  display: inline-block;
+  margin-bottom: -2px;
+  padding: 1ex 0.5em;
+}
+
+&.active{
+  border: 1px solid gray;
+  border-bottom-color: white;
 }
