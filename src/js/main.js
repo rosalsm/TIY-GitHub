@@ -49,3 +49,6 @@ $.getJSON('../../apis/github/users/rosalsm.json',function(info){
   //console.log('i am in json');
   //var compiled = _.template(< % = name % >);
  //$('.theoctocat').html('<h3>'+ info.compiled +'</h3>');
+
+//or like this
+ //var compiled = _.template ('<h3>< % = name % ></h3>');
