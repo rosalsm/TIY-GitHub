@@ -67,8 +67,9 @@ tr.numeric2 >td{
   height: 700px;
   margin-left: 5px;
   margin-top: 10px;
-  margin-right: 200px;
+  margin-right: 300px;
   float: right;
+  background-color: white;
 }
 
 .tabs{
@@ -89,4 +90,19 @@ a[href]{
 &.active{
   border: 1px solid gray;
   border-bottom-color: white;
+}
+
+button{
+  background-color: green;
+  position: absolute;
+  margin-left:440px;
+
+}
+
+ul.panel-contrib{
+  list-style-type: none;
+}
+
+li.rep{
+  border-bottom: 2px solid lightgray;
 }
