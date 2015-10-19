@@ -2,10 +2,11 @@
 body{
   background-color: #EEE;
 }
-.container{
+main.container{
   margin-left:10%;
   width: 100%;
 }
+
 .name{
   border-bottom-style: ridge;
   border-bottom-color: #D3D3D3;
@@ -17,12 +18,13 @@ body{
 }
 
 .small-rect{
-  width: 30%;
+  width: 25%;
   height: 700px;
   background-color: white;
-  display: inline-block;
+  float: left;
+  // display: inline-block;
   margin-left: 20px;
-  margin-right: 5px;
+  //margin-right: 5px;
 }
 .picture{
   display:block;
@@ -63,12 +65,12 @@ tr.numeric2 >td{
 }
 
 .big-rect{
-  width: 40%;
+  width: 60%;
   height: 700px;
-  margin-left: 5px;
+  //margin-left: 5px;
   margin-top: 10px;
-  margin-right: 200px;
-  float: right;
+  //margin-right: 200px;
+  float: left;
 }
 
 .tabs{
@@ -77,9 +79,9 @@ tr.numeric2 >td{
   border-bottom: 1px solid gray;
   line-height: 20px;
 }
-
-
-
+.tabs-mobile-only{
+  display: none;
+}
 a[href]{
   display: inline-block;
   margin-bottom: -2px;
@@ -90,3 +92,31 @@ a[href]{
   border: 1px solid gray;
   border-bottom-color: white;
 }
+@media only screen and (max-device-width:1000px) {
+  .big-rect{
+    width: 40%;
+    height: 700px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 200px;
+    float: right;
+  }
+
+}
+
+@media only screen and (max-device-width: 400px){
+  a#about{
+    width: 100%;
+  }
+  .small-rect{
+    width: 100%;
+  }
+}
+@media only screen and (max-device-width: 400px){
+  nav.tabs{
+    display: none;
+  }
+  .tabs-mobile-only{
+    display: inherit;
+      }
+    }
