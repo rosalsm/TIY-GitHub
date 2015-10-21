@@ -69,20 +69,20 @@ $.getJSON('../../apis/github/users/rosalsm.json',function(info){
  //var compiled = _.template ('<h3>< % = name % ></h3>');
 
 
-$(function(){
-  $(".submit-comment").click(function(){
-  $(".comment").submit(function(e){
-    e.preventDefault();
-    console.log("aprieta el boton");
-  })
-})
-});
+// $(function(){
+//   $(".submit-comment").click(function(){
+//   $(".comment").submit(function(e){
+//     e.preventDefault();
+//     console.log("aprieta el boton");
+//   })
+// })
+// });
 
 
 //TODO change the {{}} for the small-rect in order to use angular and comment out ajax line 43
 //5 with Angular js kind of...
 ;(function(){ //IIFE
-  //var app = angular.module('TIY-GitHub', [ ]);
+  var app = angular.module('TIY-GitHub', [ ]);
 
     app.run(function($http, $rootScope){
       $http.get('/apis/github/users/rosalsm.json') //path to my .json
@@ -97,18 +97,23 @@ $(function(){
         });
       });
 
-      app.run(function($http, $rootScope){
-        $http.get('/apis/github/users/rosalsm/repos.json')
-          .then(function(response){
-           //$rootScope.repos = {
-          //html_url: response.data[4],
-          //name: response.data[4],
-          //description: response.data[4]
-          //}
-          $rootScope.repos = response.data;
-          console.log(response.data);
+      // app.run(function($http, $rootScope){
+      //   $http.get('/apis/github/users/rosalsm/repos.json')
+      //     .then(function(response){
+      //     $rootScope.repos = response.data;
+      //     console.log(response.data);
+      //
+      //   });
+      // });
 
-        });
-      });
+
+      // getting the data from comments.json and sending it to the html
+    app.run(function($http, $rootScope){
+      $http.get('/apis/github/users/rosalsm/comments.json')
+      .then(function(response){
+        $rootScope.comments = response.data;
+        console.log(response.data);
+      })
+    })
 
 })();//end IIFE
