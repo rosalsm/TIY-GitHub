@@ -3,13 +3,21 @@ body{
   background-color: #EEE;
 }
 main.container{
-  margin-left:10%;
+  margin: 0 auto;
   width: 100%;
+  height: 700px
 }
 
-.name{
+section.name{
+  //align-content: center;
   border-bottom-style: ridge;
   border-bottom-color: #D3D3D3;
+  h3.theoctocat{
+    text-align: center;
+  }
+  p.octocat{
+    text-align: center;
+  }
 }
 .details{
   border-bottom-style: ridge;
@@ -23,8 +31,8 @@ main.container{
   background-color: white;
   float: left;
   // display: inline-block;
-  margin-left: 20px;
-  //margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 .picture{
   display:block;
@@ -65,33 +73,53 @@ tr.numeric2 >td{
 }
 
 .big-rect{
+  background-color: white;
   width: 60%;
-  height: 700px;
-  //margin-left: 5px;
+  //height: 700px;
+  margin-left: 5px;
   margin-top: 10px;
-  //margin-right: 200px;
+  margin-right: 10px;
   float: left;
+  section{
+    display: none;
+  }
+  section.active{
+    display: block;
+  }
+  button.follow{
+    background-color: green;
+    float: right;
+  }
 }
 
-.tabs{
+
+nav.tabs{
+  //when we use height of a line we use ex messaurament
   margin: 1ex 0;
   padding: 0 2ex;
   border-bottom: 1px solid gray;
   line-height: 20px;
+  a{
+    display: inline-block;
+    margin-bottom: -2px;
+    padding: 1ex 0.5em;
+  }
+  a.active{
+    border: 1px solid gray;
+    border-bottom-color: white;
+  }
 }
+
+div.repository{
+  border-bottom: 1px solid lightgray;
+  margin: 3em 3em;
+  padding: 1em 1em;
+}
+
 .tabs-mobile-only{
   display: none;
 }
-a[href]{
-  display: inline-block;
-  margin-bottom: -2px;
-  padding: 1ex 0.5em;
-}
 
-&.active{
-  border: 1px solid gray;
-  border-bottom-color: white;
-}
 @media only screen and (max-device-width:1000px) {
   .big-rect{
     width: 40%;
