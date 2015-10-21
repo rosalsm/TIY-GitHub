@@ -69,11 +69,20 @@ $.getJSON('../../apis/github/users/rosalsm.json',function(info){
  //var compiled = _.template ('<h3>< % = name % ></h3>');
 
 
+$(function(){
+  $(".submit-comment").click(function(){
+  $(".comment").submit(function(e){
+    e.preventDefault();
+    console.log("aprieta el boton");
+  })
+})
+});
+
 
 //TODO change the {{}} for the small-rect in order to use angular and comment out ajax line 43
 //5 with Angular js kind of...
 ;(function(){ //IIFE
-  var app = angular.module('TIY-GitHub', [ ]);
+  //var app = angular.module('TIY-GitHub', [ ]);
 
     app.run(function($http, $rootScope){
       $http.get('/apis/github/users/rosalsm.json') //path to my .json

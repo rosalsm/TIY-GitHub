@@ -5,7 +5,13 @@ body{
 main.container{
   margin: 0 auto;
   width: 100%;
-  height: 700px
+  // height: 700px
+}
+main.container:before,
+main.container:after{
+  content: " ";
+  display: table;
+  clear: both;
 }
 
 section.name{
@@ -115,6 +121,24 @@ div.repository{
   margin: 3em 3em;
   padding: 1em 1em;
 }
+form.comments{
+  display: block;
+  width: 60%;
+  //height: 10%;
+  //background-color: lightblue;
+
+ textarea.comment{
+  width: 50%;
+  margin: 1em 1em 1em 10em;
+
+ }
+ button.submit-comment{
+   background-color: green;
+   margin-top: 1em;
+ }
+}
+
+
 
 .tabs-mobile-only{
   display: none;
