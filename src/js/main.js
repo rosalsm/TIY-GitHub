@@ -116,4 +116,12 @@ $.getJSON('../../apis/github/users/rosalsm.json',function(info){
       })
     })
 
+    app.run(function($http, $rootScope){
+      $http.post('https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/514')
+      .then(function(response){
+        //if we can fetch the data from the comment form and post this data into this url path
+
+      })
+    })
+
 })();//end IIFE
