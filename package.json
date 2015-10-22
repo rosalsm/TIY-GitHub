@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "start":"browser-sync start --server --directory --startPath='src/index.html'",
-    "sass":"node-sass src/scss/main.scss src/css/main.css"
+    "start": "browser-sync start --server --directory --startPath='src/index.html'",
+    "sass": "node-sass src/scss/main.scss src/css/main.css -- --watch"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/rosalsm/TIY-GitHub/issues"
   },
-  "homepage": "https://github.com/rosalsm/TIY-GitHub#readme"
+  "homepage": "https://github.com/rosalsm/TIY-GitHub#readme",
+  "dependencies": {
+    "bower": "^1.6.3",
+    "browser-sync": "^2.9.11",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "node-sass": "^3.3.3",
+    "wiredep": "^2.2.2"
+  }
 }

@@ -3,78 +3,122 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Github profile</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
+        <!--bower normalize-->
         <link rel="stylesheet" href="octicons/octicons.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
+
     <body>
-      <section class="container">
+      <main class="container" ng-app="TIY-GitHub">
 
-      <section class="small-rect">
-        <section class="content">
-          <section id="pict">
-          <img class="picture" src="img/Octocat.jpg">
-         </section>
-         <section class="name">
-          <h3 class="theoctocat">{{name}}</h3>
-          <p class="octocat">{{login}}</p>
-        </section>
-          <ul class="details">
-          <li id="company"><span class="octicon octicon-organization"></span>{{company}}</li>
-            <li id="location"><span class="octicon octicon-location"></span>{{location}}</li>
-            <li id="email"><span class="octicon octicon-mail"></span>
-              <a class="em" href="mailto: octocat@github.com">{{email}}</a>
-            </li>
-            <li id="web"><span class="octicon octicon-link"></span>
-              <a class="site" href="http://www.github.com/blog">{{blog}}</a>
-            </li>
-            <li id="date"><span class="octicon octicon-clock"></span>{{moment}}></li>
-          </ul>
-          <table class="data">
-            <tr class="numeric">
-            <td class="followers">1.1k</td>
-            <td class="starred">2</td>
-            <td class="following">6</td>
-            </tr>
-            <tr class="numeric2">
-            <td class="followers2">Followers</td>
-            <td class="starred2">Starred</td>
-            <td class="following2">Following</td>
-           </tr>
-          </table>
-
-        </section>
-
-      </section>
-
-      <section class="big-rect">
-      <nav class="tabs">
-
-            <a class="tab-contri" href="#tabcontr"><span class="octicon octicon-diff-added"></span>Contributions</a>
-            <a class="tab-repos" href="#tabrepos"><span class="octicon octicon-repo"></span>Repositories</a>
-            <a class="tab-publact" href="#tabpub"><span class="octicon octicon-rss"></span>Public activity</a>
-        </nav>
-
-        <nav class="panel-repos">
-          <a href="#hello">Hello-World</a>
-          <a href="#spoon">Spoon-Knife</a>
-        </nav>
+          <nav class="tabs-mobile-only">
+            <a href="#about" class="col-1">About</a>
+            <a href="#repositories" class="col-1">Repositories</a>
+          </nav><!-- tabs-mobile-only -->
 
 
-        </section>
-      </section>
+        <section class="small-rect">
+            <section class="content">
+                <section id="pict">
+                <img class="picture" src="img/Octocat.jpg">
+               </section>
+               <section class="name">
+                <h3 class="theoctocat">{{name}}</h3>
+                <p class="octocat">{{login}}</p>
+            </section>
+                <ul class="details">
+                <li id="company"><span class="octicon octicon-organization"></span>{{company}}</li>
+                  <li id="location"><span class="octicon octicon-location"></span>{{location}}</li>
+                  <li id="email"><span class="octicon octicon-mail"></span>
+                    <a class="em" href="mailto: octocat@github.com">{{email}}</a>
+                  </li>
+                  <li id="web"><span class="octicon octicon-link"></span>
+                    <a class="site" href="http://www.github.com/blog">{{blog}}</a>
+                  </li>
+                  <li id="date"><span class="octicon octicon-clock"></span>{{moment}}></li>
+                </ul>
+              <table class="data">
+                  <tr class="numeric">
+                  <td class="followers">1.1k</td>
+                  <td class="starred">2</td>
+                  <td class="following">6</td>
+                  </tr>
+                  <tr class="numeric2">
+                  <td class="followers2">Followers</td>
+                  <td class="starred2">Starred</td>
+                  <td class="following2">Following</td>
+                  </tr>
+              </table>
+
+            </section>
+
+          </section>
+
+          <section class="big-rect">
+                <button type="button" class="follow" name="Follow"> Follow</button>
+                <nav class="tabs">
+
+                    <a class="contributions" href="#tabcontr"><span class="octicon octicon-diff-added"></span>Contributions</a>
+                    <a class="repos" href="#tabrepos"><span class="octicon octicon-repo"></span>Repositories</a>
+                    <a class="public-activity" href="#tabpub"><span class="octicon octicon-rss"></span>Public activity</a>
+                </nav>
+    <!-- no nav here section and div better -->
+                <section class="repos active">
+                    <div class="repository" ng-repeat="repo in repos | orderBy: '-updated_at'">
+                      <!-- we are iterating each repo in repos order by updated -->
+                      <a href="{{repo.html_url}}">{{repo.name}}</a>
+                      <p>{{repo.description}}</p>
+                      <h5>{{repo.updated_at}}</h5>
+                    </div><!--end repo-->
+
+                </section><!--end repo panel-->
+                <section class="contributions">
+                    <p>
+                      Contributions
+                    </p>
+                </section>
+                <section class="public-activity">
+                    <p>
+                      Public Activity
+                    </p>
+
+                </section>
+              <!-- we are iterating every comment in comments in comments.json -->
+              <section class="old-comments" ng-repeat="comment in comments">
+                <div class="old-comment">
+                  <img src="{{comment.user.avatar_url}}" alt="" />
+
+                    <p>{{comment.user.login}} commented</p>
+                    <p>{{comment.body}}</p>
+
+                </div>
+              </section>
+                <form class="comments">
+                  <textarea type="button" class="comment" placeholder="Leave a comment"></textarea>
+                  <button type="button" class="submit-comment">
+                    Comments
+                  </button>
+                </form>
+        </section><!--end of .big-rect-->
+
+      </main><!-- end of main.container -->
 
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+      <script src="../bower_components/jquery/dist/jquery.js"></script>
+      <script src="../bower_components/angular/angular.js"></script>
+      <script src="../bower_components/lodash/lodash.js"></script>
+      <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+       <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 

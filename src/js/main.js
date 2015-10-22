@@ -1,34 +1,46 @@
-
-jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
-  console.log(data);
-});
-$('a').on('click', function(){
-  console.log('i am in a');
-  $('a').removeClass('active');
-  $(this).addClass('active');
-
-})
-
-
-// //when we click in repos we add class active
-// $('a.repos').on('click', function(){
-//   console.log('i am in a.repos');
-//   //$('a.contri').removeClass('active');
-//   $(this).addClass('active');
+//1
+// jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
+//   console.log(data);
 // });
+// $('a').on('click', function(){
+//   console.log('i am in a');
+//   //$('a').removeClass('active');
+//   $(this).toggle('active').siblings().removeClass('active');
 //
-// //when we click in contributions we add class active
-// $('a.contri').on('click', function(){
-//   console.log('i am in a.contri');
-//   $(this).addClass('active');
 // })
-//
-// //when we click in public activity, we add active
-// $('a.publact').on('click', function(){
-//   console.log('i am in a.publact');
-//   $(this).addClass('active');
-// })
+//$('.tabs a[href^='#']')
+//$('.tabs > a').on('click', function(){
+//$(this).addClass()
+//var panelId=$(this).attr('href') getting the attribute href in the panelId
+//$(panelId).addClass('active').siblings().removeClass()
+//})
+//2
+//TODO add iteration with
+// $('a').each(function(){  for each a element
+//  $('section').each(function(){}) the correct panel
+//})
+$('a.contributions').on('click', function(){
+  $(this).addClass('active').siblings().removeClass('active');
+  $('section.contributions').addClass('active').siblings().removeClass('active');
+})
+$('a.repos').on('click', function(){
+  $(this).addClass('active').siblings().removeClass('active');
+  $('section.repos').addClass('active').siblings().removeClass('active');
+})
+$('a.public-activity').on('click', function(){
+  $(this).addClass('active').siblings().removeClass('active');
+  $('section.public-activity').addClass('active').siblings().removeClass('active');
+})
+//.filter('[href="#repositories"]')
+//.eq(0)
+//.trigger('click');//or click()
 
+
+
+
+
+
+//3
 // getting info from rosalsm.json and linked in index.html
 //based on code found in http://www.tutorialspoint.com/jquery/ajax-jquery-getjson.htm
 $.getJSON('../../apis/github/users/rosalsm.json',function(info){
@@ -43,6 +55,9 @@ $.getJSON('../../apis/github/users/rosalsm.json',function(info){
 });
 
 
+
+
+//4
 //with lodash
 //we defined the var compiled storing dictionary with key name and value string name.
 //$.getJSON('../../apis/github/users/rosalsm.json',function(info){
@@ -52,3 +67,61 @@ $.getJSON('../../apis/github/users/rosalsm.json',function(info){
 
 //or like this
  //var compiled = _.template ('<h3>< % = name % ></h3>');
+
+
+// $(function(){
+//   $(".submit-comment").click(function(){
+//   $(".comment").submit(function(e){
+//     e.preventDefault();
+//     console.log("aprieta el boton");
+//   })
+// })
+// });
+
+
+//TODO change the {{}} for the small-rect in order to use angular and comment out ajax line 43
+//5 with Angular js kind of...
+;(function(){ //IIFE
+  var app = angular.module('TIY-GitHub', [ ]);
+
+    app.run(function($http, $rootScope){
+      $http.get('/apis/github/users/rosalsm.json') //path to my .json
+        .then(function(response){
+          //console.log(response.data[4].name);
+          //$rootScope.html_url = response.data[4].html_url;
+          //$rootScope.name = response.data[4].name;
+          // previous steps
+          // .user includes all html_url name
+          $rootScope.user = response.data;
+          console.log(arguments);
+        });
+      });
+
+      // app.run(function($http, $rootScope){
+      //   $http.get('/apis/github/users/rosalsm/repos.json')
+      //     .then(function(response){
+      //     $rootScope.repos = response.data;
+      //     console.log(response.data);
+      //
+      //   });
+      // });
+
+
+      // getting the data from comments.json and sending it to the html
+    app.run(function($http, $rootScope){
+      $http.get('/apis/github/users/rosalsm/comments.json')
+      .then(function(response){
+        $rootScope.comments = response.data;
+        console.log(response.data);
+      })
+    })
+
+    app.run(function($http, $rootScope){
+      $http.post('https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/514')
+      .then(function(response){
+        //if we can fetch the data from the comment form and post this data into this url path
+
+      })
+    })
+
+})();//end IIFE
